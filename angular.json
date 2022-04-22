@@ -20,6 +20,13 @@
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
+        "storybook":{
+          "builder": "@storybook/angular:start-storybook",
+          "options": {
+            "tsConfig": "./storybook/tsconfig.json",
+            "compodoc": false
+          }
+        },
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {

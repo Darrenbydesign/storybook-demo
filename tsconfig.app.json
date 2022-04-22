@@ -13,6 +13,6 @@
     "../**/*.stories.ts",
   ],
   "exclude": [
-    // "**/*.stories.*"
+    "**/*.stories.*"
   ]
 }
